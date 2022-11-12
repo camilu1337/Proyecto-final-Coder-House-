@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-final-coder-house-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css" : "node-sass --include-path scss css/proyecto.scss css/proyecto.css",
+    "watch-css" : "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilu1337/Proyecto-final-Coder-House-.git"
+  },
+  "author": "Camila Llanos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilu1337/Proyecto-final-Coder-House-/issues"
+  },
+  "homepage": "https://github.com/camilu1337/Proyecto-final-Coder-House-#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

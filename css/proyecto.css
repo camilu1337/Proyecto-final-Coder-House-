@@ -1,591 +1,363 @@
 * {
-    padding: 0;
-    margin: 0;
-}
-
+  padding: 0;
+  margin: 0; }
 
 main {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 790px;
-    display: flex;
-    flex-wrap: wrap;
-}
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 790px;
+  display: flex;
+  flex-wrap: wrap; }
 
 footer {
-    background-color: white;
-    
-    width: 100%;
-}
+  background-color: white;
+  width: 100%; }
 
 h1 {
-    font-family: 'Lakki Reddy', cursive;
-    padding-top: 56px;
-    padding-left: 59px;
-}
+  font-family: 'Lakki Reddy', cursive;
+  padding-top: 56px;
+  padding-left: 59px; }
 
 .contenedornav {
-    display: flex;
-}
+  display: flex; }
 
 .logonav {
-    width: 304px;
-    height: 161px;
-    left: 0px;
-    top: 0px;
-
-}
-
-
+  width: 304px;
+  height: 161px;
+  left: 0px;
+  top: 0px; }
 
 ul {
-    list-style-type: none;
-    justify-content: center;
-    display: flex;
-    Width: 968px;
-    Height: 53px;
-    Top: 53px;
-    Left: 451px;
-    margin: 53px;
-    margin-left: 0px;
-}
-
-ul li {
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  width: 968px;
+  height: 53px;
+  top: 53px;
+  left: 451px;
+  margin: 53px;
+  margin-left: 0px; }
+  ul li {
     display: inline-block;
-    margin-right: 20px;
-}
-
-ul li a {
-    justify-content: right;
-    display: flex;
-    font-size: 20px;
-    left: 31.32%;
-    right: 1.46%;
-    top: 32.92%;
-    bottom: 34.16%;
-    padding: 14px;
-    color: white;
-    text-decoration: none;
-}
+    margin-right: 20px; }
+    ul li a {
+      justify-content: right;
+      display: flex;
+      font-size: 20px;
+      left: 31.32%;
+      right: 1.46%;
+      top: 32.92%;
+      bottom: 34.16%;
+      padding: 14px;
+      color: white;
+      text-decoration: none; }
 
 .contenedor_boton {
-    background-color:
-        #BD0837;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
-    width: 171px;
-    border-radius: 100px;
-    height: 40px;
-    left: 469px;
-    top: 60px;
-
-}
+  background-color: #BD0837;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  width: 171px;
+  border-radius: 100px;
+  height: 40px;
+  left: 469px;
+  top: 60px; }
 
 .container {
-    display: flex;
-}
-
+  display: flex; }
 
 .nav-item :hover {
-    background-color: #ec5656;
-    border-radius: 10px;
-    border-color: #ec5656;
-}
-
+  background-color: #ec5656;
+  border-radius: 10px;
+  border-color: #ec5656; }
 
 /* INDEX */
 .container__izquierda {
-    display: inline-block;
-    width: 50%;
-}
+  display: inline-block;
+  width: 50%; }
 
 .container__derecha {
-    display: flex;
-    width: 50%;
-    flex-wrap: wrap;
-    justify-content: right;
-
-}
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: right; }
 
 .parrafomain {
-    font-family: 'Ledger', serif;
-    font-size: 24px;
-    padding-left: 59px;
-    padding-top: 50px;
-}
+  font-family: 'Ledger', serif;
+  font-size: 24px;
+  padding-left: 59px;
+  padding-top: 50px; }
 
 .conteedorfooter {
-    display: flex;
-}
+  display: flex; }
 
 .contenedorul {
-    display: inline-block;
-    margin-top: 0%;
-    padding-left: 47%;
-
-
-}
+  display: inline-block;
+  margin-top: 0%;
+  padding-left: 47%; }
 
 #logomenudeabajo {
-    display: inline-block;
-
-    width: 213px;
-    height: 114px;
-    padding-top: 10px;
-    left: 1227px;
-    right: 0px;
-
-}
+  display: inline-block;
+  width: 213px;
+  height: 114px;
+  padding-top: 10px;
+  left: 1227px;
+  right: 0px; }
 
 .imgContDerecha {
-    object-fit: cover;
-    
-}
+  object-fit: cover; }
+
 .textoredhot {
-    padding: 50px;
-}
+  padding: 50px; }
 
 /* GALERIA */
 .galeria {
-    width: 50%;
-    justify-content: left;
-    margin: 0%;
-    overflow: hidden;
-}
+  width: 50%;
+  justify-content: left;
+  margin: 0%;
+  overflow: hidden; }
 
-#grilla {
-    display: grid;
-}
-
-#grillavideos {
-    display: grid;
-}
+#grilla, #grillavideos {
+  display: grid; }
 
 .fotos {
-    display: flex;
-    flex-wrap: wrap;
-    width: 240px;
-    height: 126px;
-    left: 104px;
-    top: 299px;
-    padding: 5%;
-}
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px;
+  height: 126px;
+  left: 104px;
+  top: 299px;
+  padding: 5%; }
 
 .contenedorgaleria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden; }
 
 .titulogaleria {
-    padding-left: 85px;
-    padding-top: 30px;
-    height: 50px;
-    width: 200px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    text-align: center;
-    font-size: 40px;
-    text-align: left;
-}
+  padding-left: 85px;
+  padding-top: 30px;
+  height: 50px;
+  width: 200px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  text-align: left; }
 
 .contenedorvideos {
-    width: 100%;
-    padding-top: 90px;
-    height: 790px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+  width: 100%;
+  padding-top: 90px;
+  height: 790px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
 .videosredhot {
-    padding-left: 5%;
-}
+  padding-left: 5%; }
 
-@media only screen and (max-width:768px) {
-    .maingaleria {
-        display: block;
-        height: 2300px;
-    }
+@media only screen and (max-width: 768px) {
+  .maingaleria {
+    display: block;
+    height: 2300px; }
+  .galeria {
+    width: 100%; }
+  #grilla {
+    height: 1000px;
+    grid-template-columns: 50%;
+    grid-template-rows: 120px 120px 120px 120px 120px 120px;
+    grid-template-areas: "foto1red" "foto2red" "foto3red" "foto4red" "foto5red" "foto6red";
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    row-gap: 30px;
+    padding-top: 100px; }
+  .foto1red, .foto2red, .foto3red, .foto4red, .foto5red, .foto6red {
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  /* INDEX */
+  .mainindex {
+    height: 1030px; }
+  .imgContDerecha {
+    display: block !important;
+    height: 645px; } }
 
-    .galeria {
-        width: 100%;
-    }
-
-    #grilla {
-        height: 1000px;
-        grid-template-columns: 50%;
-        grid-template-rows: 120px 120px 120px 120px 120px 120px;
-        grid-template-areas: "foto1red"
-            "foto2red"
-            "foto3red"
-            "foto4red"
-            "foto5red"
-            "foto6red";
-        align-content: space-evenly;
-        justify-content: space-evenly;
-        column-gap: 10px;
-        row-gap: 30px;
-        padding-top: 100px;
-
-    }
-
-    .foto1red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto2red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto3red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto4red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto5red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto6red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    /* INDEX */
-    .mainindex {
-        height: 1030px;
-    }
-    .imgContDerecha {
-        display: block !important;
-        height: 645px ;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    #grilla {
-        height: 650px;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 150px 150px 150px;
-        grid-template-areas: "foto1red foto2red"
-            "foto3red foto4red"
-            "foto5red foto6red";
-        align-content: space-around;
-        justify-content: center;
-        column-gap: 30px;
-        row-gap: 10px;
-        padding-left: 50px;
-        padding-top: 50px;
-
-    }
-
-    .foto1red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto2red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto3red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto4red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto5red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .foto6red {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    #grillavideos {
-        height: 650px;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 200px 200px;
-        grid-template-areas: "foto1red foto2red"
-            "foto3red foto4red";
-        justify-content: center;
-        column-gap: 20px;
-        row-gap: 60px;
-        padding-top: 80px;
-    }
-
-    .videos1redhot {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .videos2redhot {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .videos3redhot {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .videos4redhot {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .videos5redhot {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .videos6redhot {
-        justify-self: center;
-        align-self: center;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-    /* INDEX */
-    .mainindex {
-        height: 800px;
-    }
-    
-}
+@media only screen and (min-width: 768px) {
+  #grilla {
+    height: 650px;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: "foto1red foto2red" "foto3red foto4red" "foto5red foto6red";
+    align-content: space-around;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 10px;
+    padding-left: 50px;
+    padding-top: 50px; }
+  .foto1red, .foto2red, .foto3red, .foto4red, .foto5red, .foto6red {
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  #grillavideos {
+    height: 650px;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "foto1red foto2red" "foto3red foto4red";
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 60px;
+    padding-top: 80px; }
+  .videos1redhot, .videos2redhot, .videos3redhot, .videos4redhot, .videos5redhot, .videos6redhot {
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  /* INDEX */
+  .mainindex {
+    height: 800px; } }
 
 /* DISCOGRAFIA */
 .maindiscografia {
-    display: block;
-}
+  display: block; }
 
 .titulosdiscografia {
-    padding-top: 60px;
-    padding-left: 109px;
-    display: block;
-}
+  padding-top: 60px;
+  padding-left: 109px;
+  display: block; }
 
 .discos {
-    display: flex;
-    padding-top: 50px;
-
-    width: 100%;
-    height: 100%;
-
-    top: 407px;
-
-}
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  top: 407px; }
 
 .spotify {
-    padding: 65px;
-}
+  padding: 65px; }
 
 .discografia {
-    font-family: 'Jaldi';
-    font-style: normal;
-    text-align: center;
-    font-size: 48px;
-    text-align: left;
-}
+  font-family: 'Jaldi';
+  font-style: normal;
+  text-align: center;
+  font-size: 48px;
+  text-align: left; }
 
 .parrafodiscografia {
-    font-family: 'Jaldi', sans-serif;
-    font-style: normal;
-    text-align: center;
-    font-size: 36px;
-    text-align: left;
-}
+  font-family: 'Jaldi', sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 36px;
+  text-align: left; }
 
 /* MIEMBROS */
 .mainmiembros {
-    display: block;
-}
+  display: block; }
 
 .divnombremiembros {
-    padding-top: 0px;
-    padding-left: 150px;
-    display: flex;
-   
-}
+  padding-top: 0px;
+  padding-left: 150px;
+  display: flex; }
 
 .miembros {
-    width: 280px;
-    height: 126px;
-    left: 90px;
-    top: 303px;
-    padding: 54px;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Jaldi', sans-serif;
-    font-size: 30px;
-}
+  width: 280px;
+  height: 126px;
+  left: 90px;
+  top: 303px;
+  padding: 54px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Jaldi', sans-serif;
+  font-size: 30px; }
 
 .divimagenesmiembros {
-    display: flex;
-    padding-top: 190px;
-    padding-left: 60px;
-    width: 277px;
-    height: 408px;
-    left: 68px;
-    top: 407px;
-
-}
+  display: flex;
+  padding-top: 190px;
+  padding-left: 60px;
+  width: 277px;
+  height: 408px;
+  left: 68px;
+  top: 407px; }
 
 .fotosmiembros {
-    width: 390px;
-    height: 300px;
-    left: 0px;
-    top: 463px;
-    padding-right: 140px;
-}
+  width: 390px;
+  height: 300px;
+  left: 0px;
+  top: 463px;
+  padding-right: 140px; }
 
 /* CONTACTO */
 .contacto {
-    display: flex;
-
-}
+  display: flex; }
 
 .parrafocontacto {
-    width: 1274px;
-    height: 207px;
-    margin-left: 90px;
-    margin-top: 32px;
-    font-family: 'Jaldi', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 61px;
-}
+  width: 1274px;
+  height: 207px;
+  margin-left: 90px;
+  margin-top: 32px;
+  font-family: 'Jaldi', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 61px; }
 
 .maincontacto {
-    display: block;
-}
-
+  display: block; }
 
 .formulario {
-    padding-left: 85px;
-    font-family: 'Jaldi', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    display: flex;
-    flex-direction: column;
-}
-
-.formulario__input {
+  padding-left: 85px;
+  font-family: 'Jaldi', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column; }
+  .formulario .formulario__input {
     width: 353px;
     height: 33px;
     border-radius: 5px;
     padding-left: 5px;
-    font-size: 15px;
-}
-
-.formulario__inputMensaje {
+    font-size: 15px; }
+  .formulario .formulario__inputMensaje {
     width: 353px;
     height: 118px;
     border-radius: 5px;
     padding-left: 5px;
     font-family: 'Jaldi';
     font-style: normal;
-    font-size: 17px;
-}
-
+    font-size: 17px; }
 
 .botonEnviar {
-    margin-top: 20px;
-    width: 97px;
-    height: auto;
-    background: #FA1010;
-    border-radius: 5px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-}
+  margin-top: 20px;
+  width: 97px;
+  height: auto;
+  background: #FA1010;
+  border-radius: 5px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: white; }
 
 .labelform {
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-}
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center; }
 
 .letrasmenu {
-    color: black;
-}
+  color: black; }

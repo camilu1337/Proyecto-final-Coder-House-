@@ -56,22 +56,29 @@
         
     
     </header>
-    <main class="maincontacto">
-        <h2 class="titulogaleria">Contacto </h2>
+    <main class="maincontacto container-fluid">
+        <h2 class="titulogaleria h1">Contacto </h2>
+        <br>
         <div class="contacto">
-            <p class="parrafocontacto">Nos interesa conocerte y saber tù opinion al respecto, saber que es lo que te
+            <p class="parrafocontacto h3">Nos interesa conocerte y saber tù opinion al respecto, saber que es lo que te
                 gustaria, contenido que desees ver o cambios que harias. Recorda que tù opinion es de gran interes!</p>
         </div>
-        <div class="formulario">
-            <label class="labelform">Nombre</label>
-            <input type="text" id="fname" name="fname" class="formulario__input" placeholder="Tu nombre">
-            <label class="labelform">Apellido</label>
-            <input type="text" id="lname" name="lname" class="formulario__input" placeholder="Tu email de contacto">
-            <label class="labelform">Mensaje</label>
-            <textarea name="comentario" class="formulario__inputMensaje"
-                placeholder="Escribe tu mensaje aqui"></textarea>
-            <input type="submit" value="Enviar" class="botonEnviar">
+       <div class="formulario">
+        <div class="mb-3  col-md-4">
+          <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre completo">
         </div>
+        <div class="mb-3 col-md-4">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu email de contacto">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-danger col-md-1">Enviar</button>
+      </div>
+        
     </main>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="bootstrap" viewBox="0 0 118 94">

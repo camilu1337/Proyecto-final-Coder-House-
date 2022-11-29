@@ -198,6 +198,11 @@ ul {
 /* DISCOGRAFIA */
 .maindiscografia {
   display: block; }
+  @media only screen and (max-width: 768px) {
+    .maindiscografia {
+      height: 2500px;
+    }
+  }
 
 .titulosdiscografia {
   padding-top: 60px;
@@ -231,7 +236,38 @@ ul {
 /* MIEMBROS */
 .mainmiembros {
   display: block; }
+  
+  .slide {
+    top: 70px;
+    justify-content: center;
+    
+  }
+  .slide img {
+    height: 1000px;
+    
+  }
+  @media only screen and (max-width: 768px) { 
+    .slide {
 
+      margin-left: 50px;
+      margin-right: 50px;
+      justify-content: center;
+    }
+    .slide img {
+      height: 600px;
+    }
+   }
+   @media only screen and (min-width: 768px) {
+    .slide {
+
+      margin-left: 500px;
+      margin-right: 500px;
+      justify-content: center;
+    }
+    .slide img {
+      height: 600px;
+    }
+   }
 .divnombremiembros {
   padding-top: 0px;
   padding-left: 150px;
@@ -257,14 +293,11 @@ ul {
   left: 68px;
   top: 407px; }
 
-.fotosmiembros {
-  width: 390px;
-  height: 300px;
-  left: 0px;
-  top: 463px;
-  padding-right: 140px; }
+
 
 /* CONTACTO */
+
+
 .contacto {
   display: flex; }
 
@@ -282,40 +315,7 @@ ul {
 .maincontacto {
   display: block; }
 
-.formulario {
-  padding-left: 85px;
-  font-family: 'Jaldi', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  display: flex;
-  flex-direction: column; }
-  .formulario .formulario__input {
-    width: 353px;
-    height: 33px;
-    border-radius: 5px;
-    padding-left: 5px;
-    font-size: 15px; }
-  .formulario .formulario__inputMensaje {
-    width: 353px;
-    height: 118px;
-    border-radius: 5px;
-    padding-left: 5px;
-    font-family: 'Jaldi';
-    font-style: normal;
-    font-size: 17px; }
 
-.botonEnviar {
-  margin-top: 20px;
-  width: 97px;
-  height: auto;
-  background: #FA1010;
-  border-radius: 5px;
-  font-family: 'Jaldi';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  color: white; }
 
 .labelform {
   font-family: 'Jaldi';

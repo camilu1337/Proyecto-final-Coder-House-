@@ -19,44 +19,26 @@ h1 {
   padding-top: 56px;
   padding-left: 59px; }
 
-.contenedornav {
-  display: flex; }
-
 .logonav {
   width: 304px;
-  height: 161px;
-  left: 0px;
-  top: 0px; }
+  height: 161px; }
 
 ul {
   list-style-type: none;
   justify-content: center;
-  display: flex;
-  width: 968px;
-  height: 53px;
-  top: 53px;
-  left: 451px;
-  margin: 53px;
-  margin-left: 0px; }
+  display: flex; }
   ul li {
     display: inline-block;
-    margin-right: 20px; }
+    font-size: 25px; }
     ul li a {
       justify-content: right;
       display: flex;
-      font-size: 20px;
-      left: 31.32%;
-      right: 1.46%;
-      top: 32.92%;
-      bottom: 34.16%;
-      padding: 14px;
       color: white;
       text-decoration: none; }
 
 .nav-item :hover {
   background-color: #ec5656;
-  border-radius: 10px;
-  border-color: #ec5656; }
+  border-radius: 10px; }
 
 /* INDEX */
 .imgContDerecha {
@@ -64,29 +46,22 @@ ul {
 
 .textoredhot {
   padding: 50px; }
-  @media only screen and (max-width: 768px) {
-    .mainindex {
-      background-image: url(https://i.pinimg.com/originals/38/5d/76/385d7613ec3a7160e345196c3ea4da27.jpg);
-      background-repeat:no-repeat;
-  background-position-x:center;
-  background-position-y:center;
-  background-size: 40rem;
 
-    }
-  }
-  @media only screen and (min-width: 768px) {
-    .mainindex {
-      background-image: url(https://cdn2.excelsior.com.mx/media/styles/image1200x630/public/pictures/2019/01/17/2082940.jpg);
-     
-  background-size: cover;
+@media only screen and (max-width: 768px) {
+  .mainindex {
+    background-image: url(https://i.pinimg.com/originals/38/5d/76/385d7613ec3a7160e345196c3ea4da27.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 40rem; } }
 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-
-    }
-  }
-  
+@media only screen and (min-width: 768px) {
+  .mainindex {
+    background-image: url(https://cdn2.excelsior.com.mx/media/styles/image1200x630/public/pictures/2019/01/17/2082940.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; } }
 
 /* GALERIA */
 .galeria {
@@ -219,13 +194,12 @@ ul {
     height: 800px; } }
 
 /* DISCOGRAFIA */
+@media only screen and (max-width: 768px) {
+  .maindiscografia {
+    height: 1000px; } }
+
 .maindiscografia {
   display: block; }
-  @media only screen and (max-width: 768px) {
-    .maindiscografia {
-      height: 1000px;
-    }
-  }
 
 .titulosdiscografia {
   padding-top: 60px;
@@ -259,38 +233,30 @@ ul {
 /* MIEMBROS */
 .mainmiembros {
   display: block; }
-  
+
+.slide {
+  top: 70px;
+  justify-content: center; }
+
+.slide img {
+  height: 1000px; }
+
+@media only screen and (max-width: 768px) {
   .slide {
-    top: 70px;
-    justify-content: center;
-    
-  }
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center; }
   .slide img {
-    height: 1000px;
-    
-  }
-  @media only screen and (max-width: 768px) { 
-    .slide {
+    height: 600px; } }
 
-      margin-left: 50px;
-      margin-right: 50px;
-      justify-content: center;
-    }
-    .slide img {
-      height: 600px;
-    }
-   }
-   @media only screen and (min-width: 768px) {
-    .slide {
+@media only screen and (min-width: 768px) {
+  .slide {
+    margin-left: 500px;
+    margin-right: 500px;
+    justify-content: center; }
+  .slide img {
+    height: 600px; } }
 
-      margin-left: 500px;
-      margin-right: 500px;
-      justify-content: center;
-    }
-    .slide img {
-      height: 600px;
-    }
-   }
 .divnombremiembros {
   padding-top: 0px;
   padding-left: 150px;
@@ -316,18 +282,26 @@ ul {
   left: 68px;
   top: 407px; }
 
-
-
 /* CONTACTO */
-
-
 .contacto {
-  display: flex; }
+  display: flex;
+  margin-bottom: 50px; }
+
+.cont {
+  justify-content: center;
+  align-items: center; }
+
+.titulocontacto {
+  padding-top: 30px;
+  width: 200px;
+  height: 50px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  text-align: left; }
 
 .parrafocontacto {
-  width: 1274px;
-  height: 207px;
-  margin-left: 90px;
   margin-top: 32px;
   font-family: 'Jaldi', sans-serif;
   font-style: normal;
@@ -335,10 +309,48 @@ ul {
   font-size: 36px;
   line-height: 61px; }
 
+.botonenviar {
+  margin-top: 10px; }
+
 .maincontacto {
   display: block; }
 
+.form {
+  justify-content: center; }
 
+.formulario {
+  font-family: 'Jaldi', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column; }
+  .formulario .formulario__input {
+    width: 353px;
+    height: 33px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px; }
+  .formulario .formulario__inputMensaje {
+    width: 353px;
+    height: 118px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-size: 17px; }
+
+.botonEnviar {
+  margin-top: 20px;
+  width: 97px;
+  height: auto;
+  background: #FA1010;
+  border-radius: 5px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: white; }
 
 .labelform {
   font-family: 'Jaldi';

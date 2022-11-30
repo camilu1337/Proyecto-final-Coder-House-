@@ -29,41 +29,23 @@ h1 {
     padding-left: 59px;
 }
 
-.contenedornav {
-    display: flex;
-}
+
 
 .logonav {
     @include tamano(304px, 161px);
-
-    left: 0px;
-    top: 0px;
 }
 
 ul {
     list-style-type: none;
     justify-content: center;
     display: flex;
-    @include tamano(968px, 53px);
-
-    top: 53px;
-    left: 451px;
-    margin: 53px;
-    margin-left: 0px;
 
     li {
         display: inline-block;
-        margin-right: 20px;
-
+        font-size: 25px;
         a {
             justify-content: right;
             display: flex;
-            font-size: 20px;
-            left: 31.32%;
-            right: 1.46%;
-            top: 32.92%;
-            bottom: 34.16%;
-            padding: 14px;
             color: white;
             text-decoration: none;
         }
@@ -73,7 +55,7 @@ ul {
 .nav-item :hover {
     background-color: $hover-nav-item;
     border-radius: 10px;
-    border-color: $hover-nav-item;
+
 }
 
 /* INDEX */
@@ -83,10 +65,31 @@ ul {
 .imgContDerecha {
     object-fit: cover;
 }
-
 .textoredhot {
-    padding: 50px;
-}
+    padding: 50px; }
+    @media only screen and (max-width: 768px) {
+      .mainindex {
+        background-image: url(https://i.pinimg.com/originals/38/5d/76/385d7613ec3a7160e345196c3ea4da27.jpg);
+        background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 40rem;
+  
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      .mainindex {
+        background-image: url(https://cdn2.excelsior.com.mx/media/styles/image1200x630/public/pictures/2019/01/17/2082940.jpg);
+       
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  
+      }
+    }
+    
 
 /* GALERIA */
 
@@ -245,7 +248,11 @@ ul {
 }
 
 /* DISCOGRAFIA */
-
+@media only screen and (max-width: 768px) {
+    .maindiscografia {
+      height: 1000px;
+    }
+  }
 .maindiscografia {
     display: block;
 }
@@ -286,51 +293,85 @@ ul {
 /* MIEMBROS */
 
 .mainmiembros {
-    display: block;
-}
-
-.divnombremiembros {
+    display: block; }
+    
+    .slide {
+      top: 70px;
+      justify-content: center;
+      
+    }
+    .slide img {
+      height: 1000px;
+      
+    }
+    @media only screen and (max-width: 768px) { 
+      .slide {
+  
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+      }
+      .slide img {
+        height: 600px;
+      }
+     }
+     @media only screen and (min-width: 768px) {
+      .slide {
+  
+        margin-left: 500px;
+        margin-right: 500px;
+        justify-content: center;
+      }
+      .slide img {
+        height: 600px;
+      }
+     }
+  .divnombremiembros {
     padding-top: 0px;
     padding-left: 150px;
-    display: flex;
-}
-
-.miembros {
-    @include tamano(280px, 126px);
+    display: flex; }
+  
+  .miembros {
+    width: 280px;
+    height: 126px;
     left: 90px;
     top: 303px;
     padding: 54px;
     justify-content: center;
     text-align: center;
     font-family: 'Jaldi', sans-serif;
-    font-size: 30px;
-}
-
-.divimagenesmiembros {
+    font-size: 30px; }
+  
+  .divimagenesmiembros {
     display: flex;
     padding-top: 190px;
     padding-left: 60px;
-    @include tamano(277px, 408px);
+    width: 277px;
+    height: 408px;
     left: 68px;
-    top: 407px;
-}
-
-.fotosmiembros {
-    @include tamano(390px, 300px);
-    left: 0px;
-    top: 463px;
-    padding-right: 140px;
-}
+    top: 407px; }
+  
 
 /* CONTACTO */
 
 .contacto {
     display: flex;
+    margin-bottom: 50px;
 }
-
+.cont {
+    justify-content: center;
+    align-items: center;
+}
+.titulocontacto {
+    padding-top: 30px;
+    @include tamano(200px, 50px);
+    font-family: 'Jaldi';
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    text-align: left;
+}
 .parrafocontacto {
-    @include tamano(1274px, 207px);
-    margin-left: 90px;
     margin-top: 32px;
     font-family: 'Jaldi', sans-serif;
     font-style: normal;
@@ -338,13 +379,16 @@ ul {
     font-size: 36px;
     line-height: 61px;
 }
-
+.botonenviar {
+    margin-top: 10px;
+}
 .maincontacto {
     display: block;
 }
-
+.form {
+    justify-content: center;
+}
 .formulario {
-    padding-left: 85px;
     font-family: 'Jaldi', sans-serif;
     font-style: normal;
     font-weight: 400;
